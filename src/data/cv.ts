@@ -1,9 +1,23 @@
 export const experiences = [
 	{
-		company: '',
-		time: '',
-		title: '',
-		location: '',
+		company: 'FUJIFILM Biotechnologies',
+		time: 'Feb. 2024 - Feb. 2026',
+		title: 'Automation Engineer Student Assistant',
+		location: 'Hillerød, Denmark',
+		description: '',
+	},
+	{
+		company: 'PQE Group',
+		time: 'Nov. 2022 - Jul. 2023',
+		title: 'Computer System Validation Consultant',
+		location: 'Madrid, Spain',
+		description: '',
+	},
+	{
+		company: 'Foundation for Biomedical Research of La Paz Hospital',
+		time: 'Oct. 2021 - Jun. 2022',
+		title: 'Biomedical Engineer Intern',
+		location: 'Madrid, Spain',
 		description: '',
 	},
 	// {
@@ -17,19 +31,19 @@ export const experiences = [
 
 export const education = [
 	{
-		school: '',
-		time: '',
-		degree: '',
-		location: '',
-		description: '',
+		school: 'Technical University of Denmark',
+		time: 'Sept. 2023 - Feb. 2026',
+		degree: 'MSc in Computer Science & Engineering',
+		location: 'Kongens Lyngby, Denmark',
+		description: 'Specialized in Software Engineering.',
 	},
-	// {
-	// 	school: 'University of Paris',
-	// 	time: '1891 - 1895',
-	// 	degree: 'Master’s in Physics and Mathematics',
-	// 	location: 'Paris, France',
-	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+	{
+		school: 'Technical University of Madrid',
+		time: 'Sept. 2018 - Jul. 2022',
+		degree: 'BSc in Biomedical Engineering',
+		location: 'Madrid, Spain',
+		description: 'Specialized in Data Engineering and Digital Health.',
+	}
 ];
 
 export const skills = [
