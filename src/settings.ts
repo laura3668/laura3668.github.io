@@ -34,7 +34,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
-	default_image: '/images/astro-academia.png',
+	default_title: 'Laura Pascual Hebrero',
+	default_description: 'Personal website of Laura Pascual, software engineer from Technical University of Denmark.',
+	default_image: '/favicon.svg',
 }
