@@ -48,7 +48,27 @@ export const education = [
 
 export const skills = [
 	{
-		title: '',
+		title: 'Machine Learning & AI',
+		description: '',
+	},
+	{
+		title: 'Software Engineering',
+		description: '',
+	},
+	{
+		title: 'Programming Languages',
+		description: '',
+	},	
+	{
+		title: 'DevOps & Tools',
+		description: '',
+	},
+	{
+		title: 'Languages',
+		description: 'Spanish (native), English (fluent), Danish (beginner)',
+	},
+	{
+		title: 'Soft Skills',
 		description: '',
 	},
 	// {
@@ -58,14 +78,6 @@ export const skills = [
 ];
 
 export const publications = [
-	{
-		title: '',
-		authors: '',
-		journal: '',
-		time: '',
-		link: '',
-		abstract: '',
-	},
 	// {
 	// 	title: 'The Radiation of Uranium Compounds',
 	// 	authors: 'Marie Curie',
