@@ -27,6 +27,13 @@ const calculatedContainerSize = activeSocial.length <= 5 ? 'size-12' : activeSoc
 		</a>
 	}
 
+	<!-- Linkedin -->
+	{social.linkedin !== '' &&
+		<a href={social.linkedin} target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
+			<LinkedIn class={calculatedIconSize} fill="currentColor" />
+		</a>
+	}
+
 	<!-- GitHub -->
 	{social.github !== '' &&
 		<a href={social.github} target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
@@ -52,13 +59,6 @@ const calculatedContainerSize = activeSocial.length <= 5 ? 'size-12' : activeSoc
 	{social.bluesky !== '' &&
 		<a href={social.bluesky} target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
 			<Bluesky class={calculatedIconSize} fill="currentColor" />
-		</a>
-	}
-
-	<!-- Linkedin -->
-	{social.linkedin !== '' &&
-		<a href={social.linkedin} target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
-			<LinkedIn class={calculatedIconSize} fill="currentColor" />
 		</a>
 	}
 

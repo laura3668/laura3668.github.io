@@ -48,20 +48,20 @@ export const education = [
 
 export const skills = [
 	{
-		title: 'Machine Learning & AI',
-		description: '',
-	},
-	{
-		title: 'Software Engineering',
-		description: '',
+		title: 'Data & Machine Learning',
+		description: 'Pandas, NumPy, scikit-learn, PyTorch, Alteryx, Tableau, PI System',
 	},
 	{
 		title: 'Programming Languages',
-		description: '',
+		description: 'Python, Java, SQL',
 	},	
 	{
 		title: 'DevOps & Tools',
-		description: '',
+		description: 'Git, GitHub, Jenkins, VS Code, CI/CD',
+	},
+	{
+		title: 'Software Engineering',
+		description: 'Object-Oriented Programming, REST APIs, Cybersecurity fundamentals',
 	},
 	{
 		title: 'Languages',
@@ -69,7 +69,7 @@ export const skills = [
 	},
 	{
 		title: 'Soft Skills',
-		description: '',
+		description: 'Adaptability, teamwork, analytical thinking',
 	},
 	// {
 	// 	title: 'Experimental Techniques',
