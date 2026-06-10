@@ -7,7 +7,6 @@ export const profile = {
 		{title: 'Computer Science', description: 'Dummy CS description', field: 'computer-science'},
 		{title: 'Life Sciences', description: 'Dummy LS description', field: 'biology'},
 		{title: 'Engineering', description: 'Dummy Eng description', field: 'engineering'},
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
 	],
 }
 
